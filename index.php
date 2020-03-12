@@ -13,8 +13,8 @@ ini_set('error_log',"php_error_log.txt" );
 // place website in development mode
 $_GET["dev"] = true;
 
-include_once("includes/Router.php");
-include_once("includes/Template.php");
+include_once("Router.php");// removed all the includes folder tags, because uploaded the files to the main depository
+include_once("Template.php");
 
 $GLOBALS["SiteName"] = "Company";
 $GLOBALS["SiteEmail"] = "admin@company.co.za";
