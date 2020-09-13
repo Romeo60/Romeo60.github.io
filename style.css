@@ -1,0 +1,62 @@
+#header{
+	color: white;
+	background-color: black;
+	text-align: center;
+
+}
+#me{
+	border-radius: 1000px;
+	height: 50%;
+	margin: 0 auto;
+	top: 12px;
+}
+body{
+	background-color: white;
+	color: steelblue;
+	font-family: sans-serif; 
+	align-content: center;
+
+}
+#title{
+	color: orange;
+}
+#see{
+	color:white;
+ 	background-color: blue;
+ 	width: 300px;
+ 	border:none;
+ 	width: 30%;
+ 	margin-bottom: 10px;
+ 	opacity: 0.6;
+ 	padding: 16px 20px;
+ 	cursor: pointer;
+}
+#more{
+	display: none;
+}
+#about{
+	text-align: center;
+	width: 75%;
+	align-self: center;
+	margin: 0 auto;
+}
+#green{
+	color:white;
+ 	background-color: green;
+ 	width: 300px;
+ 	border:none;
+ 	width: 50%;
+ 	margin-bottom: 10px;
+ 	opacity: 0.8;
+ 	padding: 16px 20px;
+ 	cursor: pointer;
+}
+#projects{
+	
+}
+#info{
+	color: black;
+	background: white;
+	opacity: 0.6;
+	text-align: center;
+}

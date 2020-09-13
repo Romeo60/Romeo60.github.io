@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Romeo Lenyanyabedi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://use.fontawesome.com/632d536c30.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body align="center" onload="typeWriter()">
+
+	<div id="header">
+		<br>
+		<img src="land.jpg" width="30%" id="me">
+		<h2>Hello,</h2><h3 id="title" class="im"><i>I'm Romeo,<br>A full stack Developer.</i></h3>
+		<h5 id="blue"></h5>
+		<br><br>
+	</div>
+	<div id="about">
+	
+		<h3 id="title">Overview</h3>
+		<p>A passion driven fullstack developer with a hunger to see ideas and concepts realized and developed to completion. I enjoy the feeling that comes with solving a problem and sometimes I might be a little carried away making sure I solve a problem in a certain window of time, but I just call that being in <i>MyZone</i>. </p>
+		<button id="see" onclick="showMore();">more</button>
+		<div id="more">
+			<p>Hobby wize, I am greatly interested in music, reading, drawing, dirt biking and working out to name a few. I challenge myself to be the best I can be at all times and that includes learning new things to better my career and also trying out new hobbies. Basically i'm always acquiring new knowledge.</p> 
+		</div>
+		<hr>
+		<h3>Projects</h3>
+		<div id="projects">
+			<h3 id="title">Wigger web game</h3>
+			<p>My very own creation of a childhood sports game called wigger or "diWigger" in my native toungue, developed into a highscore based(infinity) web game. This HTML5 game is developed with javascript and the phaser IO engine. Players tap the crates for the game charactor to kick the ball and score points by the ball succesfully hitting the tapped crate.</p>
+			<img src="pics/wigger.jpg" alt="A picture of the game" width="100%">
+			<a href="http://wigger.epizy.com"><button id="green">Launch</button></a>
+		</div>
+		<hr>
+		<div id="projects">
+			<h3 id="title">StudyBud</h3>
+			<p>Another one of my crazy creations, this mobile app is designed for students. It is basically an educational tool that students<i>(...and other organized people)</i> can use to manage their daily lives. The app comes equiped with a notepad, voice note recorder, schedule planner and Motivation available everytime it's needed. Oh and study tips!</p>
+			<img src="pics/study.png" alt="A picture of the game" width="100%">
+			
+		</div>
+	
+		<hr>
+	<div id="info">
+		<h3>I'm available for work, get in touch</h3>
+		<i class="fa fa-phone fa-shake animated" aria-hidden="false"></i>:
+		<a href="tel: 0607080425">060 708 0425</a>
+		<br>
+		<i class="fa fa-envelope fa-shake animated" aria-hidden="false"></i>: 
+		<a href="mailto:romeo607080@gmail.com">romeo607080@gmail.com</button></a>
+		<br>
+		<h6>Developed with <i class="fa fa-heart"></i> by Romeo</h6>
+	</div>
+	</div>
+</body>
+
+</html>
+<script type="text/javascript">		
+		var i = 0;
+		var txt2 = 'A Full stack Developer'
+		var txt3 = '"Innovation is my passion."';
+		var speed = 50;
+
+function typeWriter() {
+  if (i < txt3.length) {
+    document.getElementById("blue").innerHTML += txt3.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+		function showMore(){
+			document.getElementById("more").style.display = "block";
+			document.getElementById("see").style.display ="none";
+		}
+	</script>
