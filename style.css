@@ -38,7 +38,8 @@ body{
 }
 #about{
 	text-align: center;
-	width: 75%;
+	margin-right: -15px;
+    	margin-left: -15px;
 	align-self: center;
 	margin: 0 auto;
 }
