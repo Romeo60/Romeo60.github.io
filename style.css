@@ -14,10 +14,9 @@
 	top: 12px;
 }
 body{
-	background-color: white;
-	color: steelblue;
-	font-family: sans-serif; 
-	align-content: center;
+	color: #4A4E69;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
 
 }
 #title{
@@ -63,3 +62,7 @@ body{
 	opacity: 0.6;
 	text-align: center;
 }
+p{
+	color: #4A4E69;
+    	font-weight: 300;
+    	font-family: 'Open Sans', sans-serif;
