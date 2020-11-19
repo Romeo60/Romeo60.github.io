@@ -19,7 +19,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://use.fontawesome.com/632d536c30.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body align="center" onload="typeWriter()">
@@ -33,7 +36,10 @@
 	<div id="about">
 	
 		<h3 id="title">Overview</h3>
-		<p>A passion driven fullstack developer with a hunger to see ideas and concepts realized and developed to completion. I enjoy the feeling that comes with solving a problem and sometimes I might be a little carried away making sure I solve a problem in a certain window of time, but I just call that being in <i>MyZone</i>. </p>
+		<p>A passion driven fullstack developer with a hunger to see ideas and concepts realized and developed to completion. 
+			I enjoy the feeling that comes with solving a problem and sometimes 
+			I might be a little carried away making sure I solve a problem in a certain window of time, 
+			but I just call that being in <i>MyZone</i>. </p>
 		<button id="see" onclick="showMore();">more</button>
 		<div id="more">
 			<p>Hobby wize, I am greatly interested in music, reading, drawing, dirt biking and working out to name a few. I challenge myself to be the best I can be at all times and that includes learning new things to better my career and also trying out new hobbies. Basically i'm always acquiring new knowledge.</p> 
@@ -42,8 +48,12 @@
 		<h3>Projects</h3>
 		<div id="projects">
 			<h3 id="title">Wigger web game</h3>
+			<div class="col-lg-4 col-lg-pull-8">
 			<p>My very own creation of a childhood sports game called wigger or "diWigger" in my native toungue, developed into a highscore based(infinity) web game. This HTML5 game is developed with javascript and the phaser IO engine. Players tap the crates for the game charactor to kick the ball and score points by the ball succesfully hitting the tapped crate.</p>
-			<img src="pics/wigger.jpg" alt="A picture of the game" width="100%">
+			</div>
+			<div class="col-lg-4 col-lg-push-8">
+				<img src="pics/wigger.jpg" alt="A picture of the game" width="100%">
+			</div>
 			<a href="http://wigger.epizy.com"><button id="green">Launch</button></a>
 		</div>
 		<hr>
@@ -66,10 +76,7 @@
 		<h6>Developed with <i class="fa fa-heart"></i> by Romeo</h6>
 	</div>
 	</div>
-</body>
-
-</html>
-<script type="text/javascript">		
+	<script type="text/javascript">		
 		var i = 0;
 		var txt2 = 'A Full stack Developer'
 		var txt3 = '"Innovation is my passion."';
@@ -87,3 +94,10 @@ function typeWriter() {
 			document.getElementById("see").style.display ="none";
 		}
 	</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
