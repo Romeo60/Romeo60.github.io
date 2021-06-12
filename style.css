@@ -1,6 +1,6 @@
 #header{
 	color: white;
-	background-color: rgba(51,51,51,0.75);
+	background-color: rgba(23, 109, 133);
 	text-align: center;
     	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
     	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
@@ -9,9 +9,9 @@
 }
 #me{
 	border-radius: 1000px;
-	height: 50%;
+	height: 320px;
+	width: 320px;
 	margin: 0 auto;
-	top: 12px;
 }
 body{
 	color: #4A4E69;
@@ -54,8 +54,12 @@ body{
  	padding: 16px 20px;
  	cursor: pointer;
 }
-#projects{
-	
+.projects{
+	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+    	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+    	padding: 65px 10px;
+    color: white;
+    background-color: rgba(111, 164, 179);
 }
 #info{
 	color: black;
@@ -64,6 +68,6 @@ body{
 	text-align: center;
 }
 p{
-	color: #4A4E69;
-    	font-weight: 300;
-    	font-family: 'Open Sans', sans-serif;
+	
+    font-family: "Poppins", Sans-serif;
+    line-height: 1.5em;
