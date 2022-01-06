@@ -1,0 +1,68 @@
+[06-Jan-2022 13:12:38 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:12:38 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:12:38 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:12:38 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:13:58 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:13:58 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:13:58 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:13:58 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:14:05 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:14:05 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:14:05 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:14:05 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:14:11 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:14:11 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:14:12 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:14:12 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:18:26 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:18:27 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:18:27 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:18:27 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:25:29 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:25:29 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:25:29 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:25:29 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:25:55 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:25:56 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:25:56 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:25:56 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:31:25 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:31:25 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:31:25 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:31:25 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:35:19 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:35:19 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:35:19 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:35:19 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:36:14 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:36:14 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:36:14 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:36:14 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:36:17 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:36:17 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:36:17 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:36:17 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:36:25 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:36:25 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:36:25 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:36:25 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:36:34 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:36:34 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:36:34 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:36:34 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:36:50 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:36:50 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:36:50 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:36:50 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:40:12 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:40:12 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:40:12 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:40:12 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:40:16 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:40:16 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:40:16 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:40:16 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:40:20 Africa/Johannesburg] PHP Warning:  include_once(includes/Session.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:40:20 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Session.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 25
+[06-Jan-2022 13:40:20 Africa/Johannesburg] PHP Warning:  include_once(includes/Render.php): failed to open stream: No such file or directory in C:\xampp\htdocs\bumphub\index.php on line 26
+[06-Jan-2022 13:40:20 Africa/Johannesburg] PHP Warning:  include_once(): Failed opening 'includes/Render.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bumphub\index.php on line 26
