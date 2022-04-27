@@ -1,185 +1,260 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Romeo is a Developer | Development Portfolio</title>
-	<!---Facebook Meta Tags -->
-        <meta property="og:url" content="https://www.romeo60.github.io">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Romeo is a Developer | Development Portfolio">
-        <meta property="og:description" content="A passion driven fullstack developer with a hunger to see ideas and concepts realized. Affordable Web development, Java development, Mobile App development. Looking for contract or permanent Work">
-        <meta property="og:image" content="land.jpg">
 
-        <!-- Twitter Meta Tags -->
-        <meta property="twitter:url" content="https://www.romeo60.github.io">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Romeo the Devloper">
-        <meta name="twitter:description" content="A passion driven fullstack developer with a hunger to see ideas and concepts realized. Affordable Web development, Java development, Mobile App development. Looking for contract or permanent Work">
-        <meta name="twitter:image" content="land.jpg">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://use.fontawesome.com/632d536c30.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-	<link rel="stylesheet" href="css/animate.css">
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Dominic - Responsive HTML5 OnePage Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
+<body id="page-top" class="politics_version">
 
-<body align="center" onload="typeWriter()">
-	<div id="header">
-		<img src="land-removebg-preview.png" height="300px" id="me">
-		<h2>Hello,</h2><h3 id="title" class="im"><i>I'm Romeo,<br>A Full Stack Developer.</i></h3>
-		<h5 id="blue"></h5>
-		<br><br>
-	</div>
-	<div id="projects">
-			
-			<div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-1 order-lg-1" data-aos="fade-up" data-aos-delay="200">        	
-         <img class="img-fluid" src="pics/illustrater.jpg" alt="Project picture">
-        </div>
-        <div class="col-lg-6 order-2 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-        	 <h1 id="title">Overview</h1>
-        	 <div>
-        	 	<br>
-          	<p>A passion driven Full Stack developer with a hunger to see ideas and concepts realized and developed to completion.I enjoy the feeling that comes with solving a problem and sometimes I might be a little carried away making sure I solve a problem in a certain window of time,but I just call that being in <i>MyZone</i>.</p>
-          	<button id="see" onclick="showMore();">more</button>
-          	<div id="more">
-          		<p>Hobby wize, I am greatly interested in music, reading, drawing, dirt biking and working out to name a few. I challenge myself to be the best I can be at all times and that includes learning new things to better my career and also trying out new hobbies. Basically i'm always acquiring new knowledge.</p>
-          	</div>
-          </div>
-        </div>       
-      </div>
-    </div>
-	
-		
-		
-		
-		<h1>Projects</h1>
-	
-	<div class="proects">
-			<h2 id="title">kaCash</h2>
-			<div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-        	
-         <img class="img-fluid" src="pics/kacash.jpg" alt="Project picture" height="450px" width="450px">
-        </div>
-
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-        	 
-        	 <div>
-        	 	<br>
-          	<p class="project-details">KaCash is an online payment method that uses vouchers. 
-			A user simply buys a voucher from a dealer with the kacash app then proceed to enter the voucher at checkout from an online store.
-			The app sends requests to a Rest API built in php on a remote server to generate and return a voucher code that will be used online.</p>
-
-            <span class="space"></span>
-			 <a href="https://play.google.com/store/apps/details?id=com.bumphub.kacash"><img src="pics/google-play-badge.png" width="150px"></a>
+    <!-- LOADER -->
+    <div id="preloader">
+        <div id="main-ld">
+			<div id="loader"></div>  
 		</div>
-
-        </div>       
-      </div>
-    </div>
-
-		<div class="projects">			
-				<h2 id="title">StudyBud</h2>
-			<div class="row">
-				<div class="col-lg-6 order-2" data-aos="zoom-in" data-aos-delay="200">       	 
-          	      	
-          	<img class="img-fluid" src="pics/study.png" alt="Project picture" height="480px" width="480px">
-          
-          </div>
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-1 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-        	
-         
-         <p class="project-details">One of my crazy creations, this mobile app is designed for students. It is basically an educational tool that students<i>(...and other organized people)</i> can use to manage their daily lives. The app comes equiped with a notepad, voice note recorder, schedule planner and Motivation available everytime it's needed. Oh and study tips!</p>
-          	<p class="project-details">
-          	Built with java and the CodenameOne cross-platform framework</p>   
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+	
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+			<!-- <img class="img-fluid" src="images/logo.png" alt="" /> -->
+            <h1>Romeo.Dev</h1>
+		</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contect Me</a>
+            </li>
+          </ul>
         </div>
-               
       </div>
-    </div>
-			<div class="proects">
-			<h2 id="title">Wika</h2>
-			<div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-        	
-         <img class="img-fluid" src="pics/wigger.jpg" alt="Project picture" height="450px" width="450px">
-        </div>
+    </nav>
+	
+	<section id="home" class="main-banner parallaxie" style="background: url('uploads/gallery_img-03.jpg')">
+		<div class="heading">
+			<h1>hello i'm Romeo</h1>
+			<h3 class="cd-headline clip is-full-width">
+				<span>I'm a </span>
+				<span class="cd-words-wrapper">
+					<b class="is-visible">Full Stack Developer</b>
+					<b>Web Developer</b>
+					<b>2d Game Builder</b>
+					<b>Mobile App Developer</b>
+                    <b>API Developer & Consumer</b>
+                    <b>Get it done typa guy</b>
+				</span>
+			</h3>
+		</div>
+	</section>
 
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-        	 
-        	 <div>
-        	 	<br>
-          	<p class="project-details">My very own creation of a childhood sports game called Wika or natively "diWika", developed into a highscore based(infinity) web game. This HTML5 game is developed with javascript and the phaser IO engine. Players tap the crates for the game charactor to kick the ball and score points by the ball succesfully hitting the tapped crate.</p>
 
-            <span class="space"></span><a href="http://wiger.epizy.com"><button class="btn btn-success">Launch Demo</button></a></div>
+    <div id="about" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">                        
+                        <h2>About Me.</h2>
+                        <p>I hold a BSc in IT specializing in System Development and that means i can build anything you can think of. <i>Try me</i></p>
+                            <p>I have been building solutions for amazing companies and organizations in FinTech, Education, eCommerce and a few others youll have to ask me about. I built a game just to cope with the Covid-19 pendemic. I like building and consuming APIs. I also like good coffee, <i>Got some?</i></p>
+                            <!-- <span>Download CV</span></a> -->
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
 
-        </div>       
-      </div>
-    </div>
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn" style="width:400px;">
+                        <img src="uploads/mee.png" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
 
-			<div class="projects">
+	
+	<div id="portfolio" class="section lb">
+		<div class="container">
+			<div class="section-title text-left">
+                <h3>Portfolio</h3>
+                <p>Here are some cool stuff I built for fun.</p>
+            </div><!-- end title -->
 			
-				<h2 id="title">BumpHub</h2>
 			<div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">        	
-        	
-          	<p class="project-details">My most loved project! Bumphub is a complete online store for upcoming artist to sell their music, be on charts, get likes for their songs while they earn real money royalties.
-				It is a complete eCommerce site with an EFT payment gateway plugged in from payFast.</p>
-				<p class="project-details">
-					This is how i coped with the lockdown, this project probably kept me sane, Available but still being developed.
-				</p>
-				<br>
-            <span class="space"></span><a href="https://bumphub.co.za"><button class="btn btn-success" >Launch Platform</button></a>
-          	          	
-          
-         
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-        	 <img class="img-fluid" src="pics/bumphub.png" alt="Project picture" height="350px" width="350px">
+                <div class="col-md-6">
+                    <div class="message-box">                        
+                        <h2>Bumphub.</h2>
+                        <p>My most loved project! Bumphub is a complete online store for upcoming artist to sell their music, be on charts, get likes for their songs while they earn real money royalties. It is a complete eCommerce site with an EFT payment gateway plugged in from payFast and my own API for voucher payments through kaCash.</p>
+                        <p>
+                            <a href="https://bumphub.co.za"><button class="btn btn-success" >Launch Platform</button></a>
+                        </p>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
 
-        </div>       
-      </div>
-    </div>
-			<br>
-				
-	<div id="info">
-		<h3>I'm available for work, get in touch</h3>
-		<i class="fa fa-phone fa-shake animated" aria-hidden="false"></i>:
-		<a href="tel: 0607080425">060 708 0425</a>
-		<br>
-		<i class="fa fa-phone fa-shake animated" aria-hidden="false"></i>:
-		<a href="tel: 0739075505">073 907 5505</a>
-		<br>
-		<i class="fa fa-envelope fa-shake animated" aria-hidden="false"></i>: 
-		<a href="mailto:romeo607080@gmail.com">romeo607080@gmail.com</button></a>
-		<br>
-		<h6>Developed with <i class="fa fa-heart"></i> by Romeo</h6>
-	</div>
-	</div>
-	<script type="text/javascript">		
-		var i = 0;
-		var txt2 = 'A Full stack Developer'
-		var txt3 = '"Getting paid to write awesome code is #Goals."';
-		var speed = 45;
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn">
+                        <img src="uploads/bumphub.png" style="height:300px;" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
 
-function typeWriter() {
-  if (i < txt3.length) {
-    document.getElementById("blue").innerHTML += txt3.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-		function showMore(){
-			document.getElementById("more").style.display = "block";
-			document.getElementById("see").style.display ="none";
-		}
-	</script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <br>
+            <hr>
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn">
+                        <img src="uploads/kacash.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+                <div class="col-md-6">                    
+                    <div class="message-box">                        
+                        <h2>kaCash.</h2>
+                        <p>KaCash is an online payment method that uses vouchers. A user simply buys a voucher from a dealer with the kacash app then proceed to enter the voucher at checkout from an online store. The app sends requests to a Rest API built in php on a remote server to generate and return a voucher code that will be used online.</p>
+                        <p>
+                            <a href="https://play.google.com/store/apps/details?id=com.bumphub.kacash"><img src="uploads/google-play-badge.png" width="150px"></a>
+                        </p>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->                
+            </div><!-- end row -->
+
+            <br>
+            <hr>
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">                        
+                        <h2>Wika</h2>
+                        <p>My very own creation of a childhood sports game called Wika or natively "diWika", developed into a highscore based(infinity) web game. This HTML5 game is developed with javascript and the Phaser engine. Players tap the crates for the game charactor to kick the ball and score points by the ball succesfully hitting the tapped crate.</p>
+                        <p>
+                            <a href="https://play.google.com/store/apps/details?id=com.bumphub.wika"><img src="uploads/google-play-badge.png" width="150px"></a>
+                        </p>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn">
+                        <img src="uploads/wika.png" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+
+            <br>
+            <hr>
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn">
+                        <img src="uploads/study.png" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+                <div class="col-md-6">                    
+                    <div class="message-box">                        
+                        <h2>StudyBud.</h2>
+                        <p>This mobile app is designed for students. It is basically an educational tool that students<i>(...and other organized people)</i> can use to manage their daily lives. The app comes equiped with a notepad, voice note recorder, schedule planner and Motivation available everytime it's needed. Oh and study tips!</p>
+                        <p>
+                            This was my final year project
+                        </p>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->                
+            </div><!-- end row -->
+
+		</div>
+	</div>
+	
+	 
+	
+	
+
+    <div id="contact" class="section db">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Contact Me</h3>
+                <p>Hey don't be shy. Get in Touch, id love to hear from you.</p>
+                <!-- <h3>I'm available for work, get in touch</h3> -->
+                <i style="color: white; font-size: 26px; font-weight: 800;" class="fa fa-phone fa-shake animated" aria-hidden="false"></i>:
+                <a style="color: white; font-size: 26px; font-weight: 800;" href="tel: 0607080425">060 708 0425</a>
+                <br>
+                <i style="color: white; font-size: 26px; font-weight: 800;" class="fa fa-phone fa-shake animated" aria-hidden="false"></i>:
+                <a style="color: white; font-size: 26px; font-weight: 800;" href="tel: 0739075505">073 907 5505</a>
+                <br>
+                <i style="color: white; font-size: 26px; font-weight: 800;" class="fa fa-envelope fa-shake animated" aria-hidden="false"></i>: 
+                <a style="color: white; font-size: 26px; font-weight: 800;" href="mailto:romeo607080@gmail.com">romeo607080@gmail.com</button></a>
+            </div><!-- end title -->
+            </div><!-- end row --> -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<!-- Camera Slider -->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/parallaxie.js"></script>
+	<script src="js/headline.js"></script>
+	<!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
+
 </body>
-
 </html>
-
